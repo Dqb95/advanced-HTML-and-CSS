@@ -1,0 +1,12 @@
+.is-hidden {
+    display: none;
+}
+
+.is-not-visible {
+    visibility: hidden;
+}
+
+.is-shown {
+    display: block;
+}
+

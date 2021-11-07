@@ -1,0 +1,52 @@
+.calendar {
+    width: 300px;
+    margin: 100px auto;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 40px);
+}
+
+.month-day {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.another-month {
+    font-weight: normal;
+    background: cornsilk;
+    font-size: .8rem;
+}
+
+.this-month {
+    font-weight: bold;
+    font-size: 1.1rem
+}
+
+.weekend-day.this-month:not(.today) {
+    background: chocolate;
+}
+
+.today.this-month {
+    background: cornflowerblue;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: 1px solid;
+    padding: .5rem .8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: cornsilk;
+    transition: background.0.3rem;
+}
+
+button:hover , button:focus {
+    background: cornsilk;
+}

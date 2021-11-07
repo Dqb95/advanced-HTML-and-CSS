@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #FBF1DA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+p {
+  margin: 0 0 5px 0;
+}
+small {
+  color: #395B50;
+  display: block;
+  margin-left: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #cdcdcd;
+  background: white;
+}
+
+li {
+  padding: .5em .75em;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.container {
+  width: 60%;
+  margin: 3.5rem auto;
+}
