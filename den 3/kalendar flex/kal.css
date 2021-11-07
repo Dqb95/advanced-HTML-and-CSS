@@ -1,0 +1,69 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  .calendar {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #cdcdcd;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calendar-row {
+    display: flex;
+    flex: 0 0 40px;
+  }
+  
+  .month-day {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 50px;
+  }
+  
+  .another-month {
+    font-weight: normal;
+    background: #efefef;
+    font-size: .8rem;
+  }
+  
+  .this-month {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .weekend-day.this-month:not(.today) {
+    background: lightpink;
+  }
+  
+  .today.this-month {
+    background: lightgreen;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    border: 1px solid #cdcdcd;
+    padding: .5em .8em;
+    font-size: 1rem;
+    font-weight: bold;
+    background: white;
+    transition: background .3s linear;
+    cursor: pointer;
+  }
+  button:hover, button:focus {
+    background: #efefef;
+  }
