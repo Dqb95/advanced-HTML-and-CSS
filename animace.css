@@ -1,0 +1,19 @@
+.animated {
+    margin: 100px auto;
+    background: burlywood;
+    width: 200px;
+    height: 200px;
+}
+
+.fade-in-down {
+    animation: fade-in-down 2s;
+}
+
+@keyframes fade-in-down {
+    from {
+        opracity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
